@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "mono:pixelsize=24:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=28:antialias=true:autohint=true" };
+static char *font2[] = { "Noto Color Emoji:pixelsize=28:antialias=true:autohint=true" };
 static int borderpx = 4;
 
 /*
@@ -17,7 +17,7 @@ static int borderpx = 4;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/zsh";
+static char *shell = "/bin/sh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = "scroll";
